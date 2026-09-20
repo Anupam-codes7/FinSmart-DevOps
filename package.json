@@ -1,14 +1,23 @@
 {
   "name": "finsmart-devops",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "FinSmart Digital Banking System - Agile and DevOps Project",
+  "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
+    "build": "node --check src/server.js",
     "test": "jest --runInBand"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "finsmart",
+    "banking",
+    "devops",
+    "agile",
+    "nodejs",
+    "express",
+    "github-actions"
+  ],
+  "author": "FinSmart Development Team",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
